@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Workflow Nodes & Connectors -->
+  <!-- Node 1 (Input/Trigger) -->
+  <rect x="2" y="3" width="6" height="6" fill="#1F2F55"/>
+  <rect x="3" y="4" width="4" height="4" fill="#C98A1B"/>
+
+  <!-- Connector Line -->
+  <rect x="8" y="5" width="5" height="2" fill="#1F2F55"/>
+
+  <!-- Central Processing Node -->
+  <rect x="13" y="3" width="9" height="10" fill="#1F2F55"/>
+  <rect x="15" y="5" width="5" height="6" fill="#F4F0E4"/>
+  <rect x="17" y="7" width="1" height="2" fill="#C98A1B"/>
+
+  <!-- Connector Branch Down -->
+  <rect x="16" y="13" width="2" height="4" fill="#1F2F55"/>
+
+  <!-- Output Node -->
+  <rect x="13" y="17" width="8" height="5" fill="#1F2F55"/>
+  <rect x="15" y="18" width="4" height="3" fill="#C98A1B"/>
+
+  <!-- Lateral Node -->
+  <rect x="3" y="15" width="7" height="6" fill="#1F2F55"/>
+  <rect x="5" y="17" width="3" height="2" fill="#F4F0E4"/>
+  <rect x="6" y="9" width="2" height="6" fill="#1F2F55"/>
+</svg>

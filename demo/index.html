@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request a Demo — ZENVIX AUTOMATION</title>
+  <meta name="description" content="Request a live demo of Zenvix WhatsApp bots, workflow automations, custom CRMs or website solutions. Choose your preferred time and meeting mode.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;500;600&family=Pixelify+Sans:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <aside class="top-strip" aria-label="Decorative retro runner scene">
+    <div class="strip-canvas-wrap">
+      <div class="strip-clouds"></div>
+      <div class="strip-ground"></div>
+      <div class="strip-scene">
+        <div class="strip-runner">
+          <img src="/assets/icons/runner.svg" alt="" aria-hidden="true" width="28" height="28">
+        </div>
+        <div class="strip-obstacles">
+          <div class="strip-obstacle">
+            <img src="/assets/icons/obstacle.svg" alt="" aria-hidden="true" width="16" height="20">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="strip-controls">
+      <span class="strip-title-tag">RETRO RUNNER v1.0</span>
+      <button type="button" class="strip-btn" aria-label="Pause animation" aria-pressed="false">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="3" y="2" width="3" height="12"/><rect x="10" y="2" width="3" height="12"/></svg>
+        <span>Pause</span>
+      </button>
+    </div>
+  </aside>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="site-logo" aria-label="Zenvix Automation Home">
+        <span class="logo-wordmark">Zenvix</span>
+        <span class="logo-tag">AUTOMATION</span>
+      </a>
+
+      <button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+        ☰ Menu
+      </button>
+
+      <nav id="primary-nav" class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="/" class="nav-link">Home</a></li>
+          <li><a href="/services/" class="nav-link">Services</a></li>
+          <li><a href="/work/" class="nav-link">Our Work</a></li>
+          <li><a href="/about/" class="nav-link">About</a></li>
+          <li><a href="/contact/" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="/demo/" class="btn btn-primary btn-small nav-cta active">Request a Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span aria-current="page">Request a Demo</span>
+      </nav>
+
+      <div class="section-header" style="text-align: center; max-width: 680px; margin: 0 auto 32px;">
+        <span class="section-tag">SETUP WIZARD // v1.0</span>
+        <h1>Request a Demo</h1>
+        <p>
+          Tell us which services interest you and choose a preferred meeting time. Our team will confirm the date and availability.
+        </p>
+      </div>
+
+      <!-- NoScript Alternative for Progressive Enhancement -->
+      <noscript>
+        <div class="detail-panel" style="max-width: 720px; margin: 0 auto 32px;">
+          <div class="retro-title-strip">
+            <span>STATIC_FALLBACK // NO_JAVASCRIPT</span>
+            <span>[DIRECT]</span>
+          </div>
+          <div class="detail-body">
+            <h3>Direct WhatsApp Demo Request</h3>
+            <p>
+              JavaScript is currently disabled in your browser. You can request a demo directly via WhatsApp by clicking the button below:
+            </p>
+            <div style="margin: 20px 0;">
+              <a href="https://wa.me/918509352128?text=Hi%20Zenvix%2C%20I%E2%80%99d%20like%20to%20request%20a%20demo.%0AMy%20name%20is%3A%20" 
+                 class="btn btn-whatsapp" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <img src="/assets/icons/whatsapp.svg" alt="" aria-hidden="true" width="18" height="18">
+                <span>Request Demo on WhatsApp (+91 85093 52128)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </noscript>
+
+      <!-- 3-STEP INSTALLER-STYLE RETRO WIZARD -->
+      <div id="demo-wizard" class="wizard-panel">
+        <div class="retro-title-strip">
+          <div class="title-left">
+            <span class="retro-box-dots"><span></span><span></span></span>
+            <span>DEMO_SETUP_WIZARD.EXE</span>
+          </div>
+          <span>[3-STEP INSTALLER]</span>
+        </div>
+
+        <div class="wizard-body">
+          <!-- Wizard Step Indicator -->
+          <div class="wizard-progress-bar" role="progressbar" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1" aria-label="Demo Wizard Progress">
+            <div id="progress-step-1" class="wizard-progress-step is-active" aria-current="step">STEP 1: SERVICES</div>
+            <div id="progress-step-2" class="wizard-progress-step">STEP 2: PREFERENCES</div>
+            <div id="progress-step-3" class="wizard-progress-step">STEP 3: CONFIRMATION</div>
+          </div>
+
+          <!-- Accessible Error Announcement Banner -->
+          <div id="wizard-error-banner" class="wizard-error-banner" tabindex="-1"></div>
+
+          <!-- STEP 1: What are you interested in? -->
+          <div id="wizard-step-1" class="wizard-step-pane is-active">
+            <fieldset class="wizard-field-group">
+              <legend class="wizard-legend">Step 1: What are you interested in?</legend>
+              <p class="wizard-help">Select one or more services to explore during your walkthrough:</p>
+
+              <div class="checkbox-list">
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="WhatsApp AI Chatbots">
+                  <span class="control-label">WhatsApp AI Chatbots</span>
+                </label>
+
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="WhatsApp Co-existence">
+                  <span class="control-label">WhatsApp Co-existence</span>
+                </label>
+
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="Multilingual Bots">
+                  <span class="control-label">Multilingual Bots</span>
+                </label>
+
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="n8n Workflow Automation">
+                  <span class="control-label">n8n Workflow Automation</span>
+                </label>
+
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="Custom CRMs">
+                  <span class="control-label">Custom CRMs</span>
+                </label>
+
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="Website Building">
+                  <span class="control-label">Website Building</span>
+                </label>
+
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="SEO">
+                  <span class="control-label">SEO</span>
+                </label>
+
+                <label class="control-item">
+                  <input type="checkbox" name="services" value="Digital Marketing">
+                  <span class="control-label">Digital Marketing</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="wizard-actions">
+              <button type="button" id="wizard-reset" class="btn btn-secondary btn-small">Reset All</button>
+              <button type="button" id="wizard-next-1" class="btn btn-primary">Next: Time &amp; Mode &rarr;</button>
+            </div>
+          </div>
+
+          <!-- STEP 2: When suits you? -->
+          <div id="wizard-step-2" class="wizard-step-pane">
+            <div class="wizard-field-group">
+              <span class="wizard-legend">Step 2: When suits you?</span>
+              <p class="wizard-help">
+                These are preferred time windows. Our team will confirm the date and availability.
+              </p>
+
+              <!-- Preferred Time Radios -->
+              <fieldset style="border: none; padding: 0; margin-bottom: 20px;">
+                <legend style="font-weight: 600; font-size: 1rem; color: var(--color-primary); margin-bottom: 8px;">
+                  Preferred Time Window (IST):
+                </legend>
+                <div class="radio-list">
+                  <label class="control-item">
+                    <input type="radio" name="preferred-time" value="Morning: 10 AM–1 PM">
+                    <span class="control-label">Morning: 10 AM–1 PM IST</span>
+                  </label>
+
+                  <label class="control-item">
+                    <input type="radio" name="preferred-time" value="Afternoon: 2 PM–5 PM">
+                    <span class="control-label">Afternoon: 2 PM–5 PM IST</span>
+                  </label>
+
+                  <label class="control-item">
+                    <input type="radio" name="preferred-time" value="Evening: 6 PM–8 PM">
+                    <span class="control-label">Evening: 6 PM–8 PM IST</span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <!-- Meeting Mode Radios -->
+              <fieldset style="border: none; padding: 0; margin-bottom: 12px;">
+                <legend style="font-weight: 600; font-size: 1rem; color: var(--color-primary); margin-bottom: 8px;">
+                  Meeting Mode:
+                </legend>
+                <div class="radio-list">
+                  <label class="control-item">
+                    <input type="radio" name="meeting-mode" value="Phone call">
+                    <span class="control-label">Phone call</span>
+                  </label>
+
+                  <label class="control-item">
+                    <input type="radio" name="meeting-mode" value="Video call">
+                    <span class="control-label">Video call</span>
+                  </label>
+
+                  <label class="control-item">
+                    <input type="radio" name="meeting-mode" value="In person in the Siliguri area">
+                    <span class="control-label">In person in the Siliguri area</span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>
+
+            <div class="wizard-actions">
+              <button type="button" id="wizard-back-2" class="btn btn-secondary">&larr; Back to Services</button>
+              <button type="button" id="wizard-next-2" class="btn btn-primary">Next: Review &rarr;</button>
+            </div>
+          </div>
+
+          <!-- STEP 3: Review & Send Request -->
+          <div id="wizard-step-3" class="wizard-step-pane">
+            <span class="wizard-legend">Step 3: Review &amp; Dispatch Request</span>
+            <p class="wizard-help">
+              Review your selections below. When ready, click to dispatch via WhatsApp.
+            </p>
+
+            <div class="wizard-summary-box">
+              <dl>
+                <dt>INTERESTED IN:</dt>
+                <dd id="summary-services">—</dd>
+
+                <dt>PREFERRED TIME:</dt>
+                <dd id="summary-time">—</dd>
+
+                <dt>MEETING MODE:</dt>
+                <dd id="summary-mode">—</dd>
+              </dl>
+            </div>
+
+            <p style="font-size: 0.95rem; margin-bottom: 20px;">
+              <strong>Note:</strong> Send your request on WhatsApp. Our team will confirm the date and time.
+            </p>
+
+            <div class="wizard-actions">
+              <button type="button" id="wizard-back-3" class="btn btn-secondary">&larr; Back to Edit</button>
+              <a href="#" id="wizard-send-whatsapp" class="btn btn-whatsapp">
+                <img src="/assets/icons/whatsapp.svg" alt="" aria-hidden="true" width="18" height="18">
+                <span>Request Demo on WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <a href="https://wa.me/918509352128?text=Hi%20Zenvix%2C%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20automation%20services." 
+     class="floating-whatsapp" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Chat on WhatsApp (+91 85093 52128)"
+     data-wa-message="Hi Zenvix, I’d like to know more about your automation services.">
+    <img src="/assets/icons/whatsapp.svg" alt="" aria-hidden="true" width="22" height="22">
+    <span>Chat on WhatsApp</span>
+  </a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-wordmark">Zenvix</span>
+          <span class="tagline">“Innovation in Motion”</span>
+          <p class="secondary-text">
+            Practical WhatsApp bots, workflow automation, custom CRMs and websites for growing businesses across India.
+          </p>
+          <p class="secondary-text">
+            <strong>Location:</strong> Siliguri, West Bengal, India
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul class="footer-nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li><a href="/work/">Our Work</a></li>
+            <li><a href="/languages/">Languages</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/demo/">Request a Demo</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-nav-list">
+            <li><a href="/services/whatsapp-ai-chatbots/">WhatsApp AI Chatbots</a></li>
+            <li><a href="/services/whatsapp-coexistence/">WhatsApp Co-existence</a></li>
+            <li><a href="/services/multilingual-bots/">Multilingual Bots</a></li>
+            <li><a href="/services/n8n-workflow-automation/">n8n Workflow Automation</a></li>
+            <li><a href="/services/custom-crm/">Custom CRMs</a></li>
+            <li><a href="/services/website-building/">Website Building</a></li>
+            <li><a href="/services/seo/">SEO</a></li>
+            <li><a href="/services/digital-marketing/">Digital Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-nav-list">
+            <li><a href="tel:+918509352128">+91 85093 52128</a></li>
+            <li><a href="tel:+918906367958">+91 89063 67958</a></li>
+            <li><a href="mailto:zenvixautomation@gmail.com">zenvixautomation@gmail.com</a></li>
+            <li><span>Siliguri, West Bengal, India</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 ZENVIX AUTOMATION. All rights reserved.</div>
+        <div>Built with restrained 1990s retro design and modern web standards.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/config.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/wizard.js"></script>
+</body>
+</html>

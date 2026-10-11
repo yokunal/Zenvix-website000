@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Retro browser window -->
+  <rect x="2" y="3" width="20" height="18" fill="#1F2F55"/>
+  <!-- Title bar -->
+  <rect x="3" y="4" width="18" height="4" fill="#C98A1B"/>
+  <rect x="18" y="5" width="2" height="2" fill="#1F2F55"/>
+  <!-- Content area -->
+  <rect x="4" y="9" width="16" height="11" fill="#F4F0E4"/>
+  <!-- Layout blocks -->
+  <rect x="6" y="11" width="4" height="3" fill="#1F2F55"/>
+  <rect x="11" y="11" width="7" height="1" fill="#8A8473"/>
+  <rect x="11" y="13" width="5" height="1" fill="#8A8473"/>
+  <rect x="6" y="16" width="12" height="2" fill="#D8D2C2"/>
+</svg>

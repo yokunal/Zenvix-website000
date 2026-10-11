@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" width="380" height="240" shape-rendering="crispEdges">
+  <!-- Retro Schematic Diagram: Connected Business Workflows -->
+  <rect x="0" y="0" width="380" height="240" fill="#E2DDD0"/>
+  
+  <!-- Subtle Grid Lines -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none"/>
+      <rect x="0" y="0" width="1" height="1" fill="#8A8473" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="380" height="240" fill="url(#grid)"/>
+
+  <!-- Connecting Bus Lines (Orthogonal retro wiring) -->
+  <path d="M 120 70 L 190 70 L 190 120" stroke="#1F2F55" stroke-width="2" fill="none"/>
+  <path d="M 190 120 L 190 170 L 260 170" stroke="#1F2F55" stroke-width="2" fill="none"/>
+  <path d="M 190 120 L 260 120" stroke="#1F2F55" stroke-width="2" fill="none"/>
+  <path d="M 120 170 L 160 170 L 160 120 L 190 120" stroke="#C98A1B" stroke-width="2" stroke-dasharray="4,4" fill="none"/>
+
+  <!-- Node 1: WhatsApp Customer Entry (Top Left) -->
+  <g transform="translate(20, 42)">
+    <rect x="0" y="0" width="100" height="54" fill="#D8D2C2"/>
+    <rect x="0" y="0" width="100" height="2" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="2" height="54" fill="#FFFFFF"/>
+    <rect x="98" y="0" width="2" height="54" fill="#3B382F"/>
+    <rect x="0" y="52" width="100" height="2" fill="#3B382F"/>
+    <rect x="4" y="4" width="92" height="14" fill="#1F2F55"/>
+    <text x="8" y="15" font-family="'Pixelify Sans', monospace" font-size="9" fill="#FFFFFF" font-weight="bold">INCOMING CHAT</text>
+    <rect x="8" y="24" width="84" height="22" fill="#F4F0E4"/>
+    <text x="12" y="38" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#171717">Customer Lead</text>
+  </g>
+
+  <!-- Node 2: Central Logic / Bot Router (Center) -->
+  <g transform="translate(150, 96)">
+    <rect x="0" y="0" width="80" height="48" fill="#1F2F55"/>
+    <rect x="0" y="0" width="80" height="2" fill="#4C649B"/>
+    <rect x="0" y="0" width="2" height="48" fill="#4C649B"/>
+    <rect x="78" y="0" width="2" height="48" fill="#3B382F"/>
+    <rect x="0" y="46" width="80" height="2" fill="#3B382F"/>
+    <rect x="6" y="6" width="68" height="36" fill="#D8D2C2"/>
+    <text x="14" y="22" font-family="'Pixelify Sans', monospace" font-size="10" fill="#1F2F55" font-weight="bold">ZENVIX</text>
+    <text x="14" y="34" font-family="'Pixelify Sans', monospace" font-size="9" fill="#C98A1B">AUTOMATION</text>
+  </g>
+
+  <!-- Node 3: Custom CRM Database (Right) -->
+  <g transform="translate(260, 96)">
+    <rect x="0" y="0" width="100" height="50" fill="#D8D2C2"/>
+    <rect x="0" y="0" width="100" height="2" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="2" height="50" fill="#FFFFFF"/>
+    <rect x="98" y="0" width="2" height="50" fill="#3B382F"/>
+    <rect x="0" y="48" width="100" height="2" fill="#3B382F"/>
+    <rect x="4" y="4" width="92" height="14" fill="#1F2F55"/>
+    <text x="8" y="15" font-family="'Pixelify Sans', monospace" font-size="9" fill="#FFFFFF" font-weight="bold">CUSTOM CRM</text>
+    <rect x="8" y="24" width="84" height="20" fill="#F4F0E4"/>
+    <text x="12" y="38" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#171717">Lead Organized</text>
+  </g>
+
+  <!-- Node 4: n8n Workflow Sync (Bottom Right) -->
+  <g transform="translate(260, 156)">
+    <rect x="0" y="0" width="100" height="50" fill="#D8D2C2"/>
+    <rect x="0" y="0" width="100" height="2" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="2" height="50" fill="#FFFFFF"/>
+    <rect x="98" y="0" width="2" height="50" fill="#3B382F"/>
+    <rect x="0" y="48" width="100" height="2" fill="#3B382F"/>
+    <rect x="4" y="4" width="92" height="14" fill="#C98A1B"/>
+    <text x="8" y="15" font-family="'Pixelify Sans', monospace" font-size="9" fill="#171717" font-weight="bold">WORKFLOW</text>
+    <rect x="8" y="24" width="84" height="20" fill="#F4F0E4"/>
+    <text x="12" y="38" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#171717">Sheet / Payment</text>
+  </g>
+
+  <!-- Node 5: Team Phone App / Shared Inbox (Bottom Left) -->
+  <g transform="translate(20, 146)">
+    <rect x="0" y="0" width="100" height="50" fill="#D8D2C2"/>
+    <rect x="0" y="0" width="100" height="2" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="2" height="50" fill="#FFFFFF"/>
+    <rect x="98" y="0" width="2" height="50" fill="#3B382F"/>
+    <rect x="0" y="48" width="100" height="2" fill="#3B382F"/>
+    <rect x="4" y="4" width="92" height="14" fill="#1F2F55"/>
+    <text x="8" y="15" font-family="'Pixelify Sans', monospace" font-size="9" fill="#FFFFFF" font-weight="bold">CO-EXISTENCE</text>
+    <rect x="8" y="24" width="84" height="20" fill="#F4F0E4"/>
+    <text x="12" y="38" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#171717">Phone App Sync</text>
+  </g>
+</svg>

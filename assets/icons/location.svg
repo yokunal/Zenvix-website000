@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Retro pixel map pin -->
+  <rect x="7" y="2" width="10" height="4" fill="#1F2F55"/>
+  <rect x="5" y="4" width="14" height="6" fill="#1F2F55"/>
+  <rect x="7" y="10" width="10" height="3" fill="#1F2F55"/>
+  <!-- Pin center eye -->
+  <rect x="10" y="5" width="4" height="4" fill="#C98A1B"/>
+  <!-- Tapering point -->
+  <rect x="9" y="13" width="6" height="3" fill="#1F2F55"/>
+  <rect x="10" y="16" width="4" height="3" fill="#1F2F55"/>
+  <rect x="11" y="19" width="2" height="3" fill="#1F2F55"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Document & magnifying glass -->
+  <rect x="2" y="3" width="13" height="17" fill="#1F2F55"/>
+  <rect x="4" y="5" width="9" height="13" fill="#F4F0E4"/>
+  <rect x="5" y="7" width="7" height="1" fill="#8A8473"/>
+  <rect x="5" y="9" width="7" height="1" fill="#8A8473"/>
+  <rect x="5" y="11" width="5" height="1" fill="#8A8473"/>
+
+  <!-- Magnifying glass -->
+  <rect x="11" y="8" width="8" height="8" fill="#C98A1B"/>
+  <rect x="13" y="10" width="4" height="4" fill="#FFFFFF"/>
+  <rect x="18" y="15" width="4" height="4" fill="#1F2F55"/>
+</svg>

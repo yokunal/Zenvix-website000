@@ -49,6 +49,9 @@ html {
   color: var(--color-text-main);
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
 }
 
 body {
@@ -62,6 +65,8 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
 }
 
 /* Line length for comfortable reading */
@@ -730,7 +735,7 @@ select:focus-visible {
 
 @media (max-width: 920px) {
   .hero-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 32px;
   }
 }
@@ -822,30 +827,36 @@ select:focus-visible {
 }
 
 @media (max-width: 600px) {
+  .hero-section {
+    padding: 32px 0 28px;
+  }
+
   .retro-illustration-panel {
-    box-shadow: 3px 3px 0 var(--dark-edge);
-    -webkit-box-shadow: 3px 3px 0 var(--dark-edge);
+    box-shadow: 2px 2px 0 var(--dark-edge);
+    -webkit-box-shadow: 2px 2px 0 var(--dark-edge);
+    max-width: 100%;
   }
 
   .retro-title-strip {
     padding: 6px 8px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     letter-spacing: 0.2px;
   }
 
   .retro-title-strip .retro-box-dots span {
-    width: 7px;
-    height: 7px;
+    width: 6px;
+    height: 6px;
   }
 
   .retro-diagram-box {
-    padding: 12px 6px;
-    margin: 8px;
+    padding: 10px 4px;
+    margin: 6px 4px;
   }
 
   .diagram-caption {
-    font-size: 0.6875rem;
+    font-size: 0.65rem;
     margin-top: 8px;
+    line-height: 1.35;
   }
 }
 

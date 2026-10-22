@@ -21,7 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;500;600&family=Pixelify+Sans:wght@500;600&display=swap" rel="stylesheet">
 
   <!-- Shared Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css?v=2.1">
 
   <!-- LocalBusiness Schema -->
   <script type="application/ld+json">
@@ -140,20 +140,24 @@
           </div>
 
           <!-- Retro Illustration Representing Connected Workflows -->
-          <div class="hero-visual">
-            <div class="retro-illustration-panel">
-              <div class="retro-title-strip">
-                <div class="title-left">
+          <div class="hero-visual" style="width: 100%; min-width: 0; max-width: 100%; display: flex; justify-content: center;">
+            <div class="retro-illustration-panel" style="width: 100%; max-width: 480px; box-sizing: border-box;">
+              <div class="retro-title-strip" style="width: 100%; box-sizing: border-box;">
+                <div class="title-left" style="min-width: 0; overflow: hidden;">
                   <span class="retro-box-dots"><span></span><span></span></span>
-                  <span>SYSTEM_FLOW_DIAGRAM.SYS</span>
+                  <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">SYSTEM_FLOW_DIAGRAM.SYS</span>
                 </div>
-                <span>[100% OK]</span>
+                <span style="flex-shrink: 0; white-space: nowrap; margin-left: 6px;">[100% OK]</span>
               </div>
-              <div class="retro-diagram-box">
-                <div class="diagram-svg-wrap">
-                  <img src="/assets/icons/hero-diagram.svg" alt="Schematic showing connected customer WhatsApp chat, central Zenvix automation router, custom CRM, and team inbox workflows" width="380" height="240">
+              <div class="retro-diagram-box" style="box-sizing: border-box; max-width: 100%; overflow: hidden;">
+                <div class="diagram-svg-wrap" style="width: 100%; max-width: 100%; overflow: hidden; box-sizing: border-box;">
+                  <img src="/assets/icons/hero-diagram.svg" 
+                       alt="Schematic showing connected customer WhatsApp chat, central Zenvix automation router, custom CRM, and team inbox workflows" 
+                       width="380" 
+                       height="240"
+                       style="width: 100%; max-width: 100%; height: auto; aspect-ratio: 380 / 240; display: block; margin: 0 auto;">
                 </div>
-                <div class="diagram-caption">FIG 1.0 — CONNECTED BUSINESS WORKFLOW INFRASTRUCTURE</div>
+                <div class="diagram-caption" style="word-break: break-word; overflow-wrap: break-word;">FIG 1.0 — CONNECTED BUSINESS WORKFLOW INFRASTRUCTURE</div>
               </div>
             </div>
           </div>

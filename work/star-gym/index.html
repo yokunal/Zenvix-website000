@@ -86,17 +86,117 @@
           <span class="badge-pixel" style="margin-bottom: 12px;">WHATSAPP AI CHATBOT</span>
           <h1>Star Gym &amp; Fitness</h1>
 
-          <div class="work-frame" style="max-width: 640px; margin: 24px 0;">
-            <img src="/assets/work/star-gym.png" 
-                 alt="Screenshot of Aria AI WhatsApp bot for Star Gym &amp; Fitness" 
-                 width="640" 
-                 height="380"
-                 loading="lazy"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-            <div class="work-placeholder" style="display: none; padding: 60px 20px;">
-              <div class="work-placeholder-tag">ASSETS/WORK/STAR-GYM.PNG</div>
-              <strong style="font-family: var(--font-pixel); font-size: 1.25rem; color: var(--color-primary);">Screenshot coming soon</strong>
-              <span class="work-placeholder-note">Owner-supplied project screenshot pending</span>
+          <!-- Interactive HTML Retro AI Chat Simulator -->
+          <div style="margin: 28px 0;">
+            <div class="retro-chat-window" id="gym-ai-chat-simulator">
+              <!-- Retro Window Title Bar -->
+              <div class="retro-title-strip">
+                <div class="title-left">
+                  <span class="retro-box-dots"><span></span><span></span></span>
+                  <span>ZENVIX_CHAT_95.EXE // ARIA_AI_STAR_GYM_CONCIERGE</span>
+                </div>
+                <div class="media-window-controls" aria-hidden="true">
+                  <button type="button" class="media-win-btn" aria-label="Minimize">_</button>
+                  <button type="button" class="media-win-btn" aria-label="Maximize">□</button>
+                  <button type="button" class="media-win-btn" aria-label="Close">✕</button>
+                </div>
+              </div>
+
+              <!-- Retro Window Menu Bar -->
+              <div class="retro-window-menu" aria-hidden="true">
+                <span><u>F</u>ile</span>
+                <span><u>E</u>dit</span>
+                <span><u>V</u>iew</span>
+                <span><u>M</u>essenger</span>
+                <span><u>A</u>udio</span>
+                <span><u>H</u>elp</span>
+              </div>
+
+              <!-- Chat App Header -->
+              <div class="chat-app-header">
+                <div class="chat-ai-profile">
+                  <div class="chat-avatar-box" aria-hidden="true">
+                    <div class="avatar-pixel-face">
+                      <span class="avatar-eye left"></span>
+                      <span class="avatar-eye right"></span>
+                      <span class="avatar-mouth"></span>
+                    </div>
+                  </div>
+                  <div class="chat-profile-meta">
+                    <h4>Aria AI — Star Gym Concierge</h4>
+                    <p><span class="online-indicator">● Online</span> • WhatsApp Cloud API • 9 Branches</p>
+                  </div>
+                </div>
+
+                <!-- Voice & Simulator Controls -->
+                <div class="chat-header-actions">
+                  <div class="chat-audio-wave" aria-hidden="true" title="Audio voice frequency">
+                    <span class="wave-bar"></span>
+                    <span class="wave-bar"></span>
+                    <span class="wave-bar"></span>
+                    <span class="wave-bar"></span>
+                  </div>
+                  <button type="button" class="chat-tool-btn btn-voice is-active" aria-pressed="true" aria-label="Toggle voice speech synthesis">
+                    <span>🔊</span> <span>Voice: ON</span>
+                  </button>
+                  <button type="button" class="chat-tool-btn btn-autoplay" aria-label="Run automated demonstration">
+                    <span>▶</span> <span>Auto-Play Demo</span>
+                  </button>
+                  <button type="button" class="chat-tool-btn btn-reset" aria-label="Reset conversation">
+                    <span>↺</span> <span>Reset</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Main Scrollable Chat Log -->
+              <div class="retro-chat-viewport" role="log" aria-live="polite" aria-label="Live conversation with Aria AI">
+                <!-- Messages dynamically populated by retro-chat.js -->
+              </div>
+
+              <!-- Typing Indicator -->
+              <div class="chat-typing-box" aria-hidden="true">
+                <span>Aria AI is typing</span>
+                <div class="typing-dot-anim">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+
+              <!-- Chat Input & Quick Action Chips -->
+              <div class="chat-input-deck">
+                <!-- Quick Prompt Chips -->
+                <div class="chat-chips-bar" aria-label="Quick questions">
+                  <span class="chips-label">QUICK PROMPT:</span>
+                  <button type="button" class="chat-prompt-chip" data-action="pricing">💰 Pricing Plans</button>
+                  <button type="button" class="chat-prompt-chip" data-action="demo">🏋️ Book Free Demo</button>
+                  <button type="button" class="chat-prompt-chip" data-action="branches">📍 Gym Branches</button>
+                  <button type="button" class="chat-prompt-chip" data-action="pass">🎟️ Get VIP Pass</button>
+                </div>
+
+                <!-- Interactive Message Input -->
+                <form class="chat-form-row" onsubmit="return false;">
+                  <input type="text" 
+                         class="chat-text-input" 
+                         placeholder="Type a message (e.g. 'plans', 'book demo session', 'branches')..." 
+                         aria-label="Message to Aria AI">
+                  <button type="button" class="chat-send-btn" aria-label="Send message">
+                    <span>↵</span> <span>SEND</span>
+                  </button>
+                </form>
+              </div>
+
+              <!-- Video Player Call-To-Action Dock -->
+              <div class="chat-bottom-cta">
+                <div class="chat-bottom-cta-text">
+                  <strong>Automate member intake for your fitness business.</strong> Direct bookings to your calendar &amp; WhatsApp.
+                </div>
+                <a href="https://wa.me/918509352128?text=Hi%20Zenvix%2C%20I%E2%80%99d%20like%20to%20enquire%20about%20a%20setup%20like%20Star%20Gym%20%26%20Fitness." 
+                   class="btn btn-whatsapp btn-small" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                  <img src="/assets/icons/whatsapp.svg" alt="" aria-hidden="true" width="16" height="16">
+                  <span>Enquire for Your Gym</span>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -202,5 +302,6 @@
 
   <script src="/assets/js/config.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/retro-chat.js"></script>
 </body>
 </html>

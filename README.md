@@ -98,7 +98,29 @@ Before production launch:
 
 ---
 
-## 6. Architecture & Directory Structure
+## 6. Interactive Features & Aria AI Chat Simulator
+
+The website includes three custom vanilla JavaScript interactive experiences:
+
+### A. Aria AI Chat Simulator (`assets/js/retro-chat.js`, `assets/css/retro-chat.css`)
+- **Location:** Featured on `/demo/` and `/work/star-gym/`.
+- **Aesthetic:** Windows 95 / retro messenger window chrome (`ZENVIX_CHAT_95.EXE`) with high-contrast accessible messaging cards.
+- **Voice Synthesis:** Real-time speech synthesis using the browser's native **Web Speech API (`speechSynthesis`)**, complete with animated pixel mouth movement and audio VU frequency bars. Includes `[ 🔊 Voice: ON / OFF ]` toggle.
+- **Gym Automation Flow:** Simulates Star Gym & Fitness (9 branches) WhatsApp member intake:
+  - Transparent pricing breakdown cards (Monthly ₹1,499, Quarterly ₹3,999, Annual VIP ₹11,999).
+  - Free 1-Day Trial Demo Session inquiry and booking intake.
+  - Dynamic generation of a verified **VIP Demo Pass ticket** (`#SG-DEMO-8842`) with barcode and WhatsApp confirmation.
+- **Interactivity:** Visitors can type questions directly in the text input, tap quick prompt chips (`💰 Pricing Plans`, `🏋️ Book Free Demo`, `📍 Gym Branches`, `🎟️ Get VIP Pass`), or click `[ ▶ Auto-Play Demo ]` to watch the automated flow.
+
+### B. 3-Step Demo Request Installer Wizard (`assets/js/wizard.js`)
+- Step-by-step Windows-installer-style form to configure services, time preferences, and meeting mode with zero external dependencies, directly generating formatted WhatsApp dispatches.
+
+### C. Retro 8-Bit Runner Animation Strip (`assets/js/main.js`)
+- Synchronized canvas/CSS top strip featuring pixel character jumping over obstacles, with pause/play controls and `prefers-reduced-motion` accessibility support.
+
+---
+
+## 7. Architecture & Directory Structure
 
 ```
 Zenvix/
@@ -107,11 +129,13 @@ Zenvix/
 ├── README.md                            # Documentation
 ├── assets/
 │   ├── css/
-│   │   └── style.css                    # 1990s retro design system & responsive layout
+│   │   ├── style.css                    # 1990s retro design system & responsive layout
+│   │   └── retro-chat.css               # Retro WhatsApp / AI chat simulator styling
 │   ├── js/
 │   │   ├── config.js                    # Business details & WhatsApp link helper
 │   │   ├── main.js                      # Mobile nav, top runner controls, link binder
-│   │   └── wizard.js                    # 3-step installer demo wizard
+│   │   ├── wizard.js                    # 3-step installer demo wizard
+│   │   └── retro-chat.js                # Interactive AI chat simulator with Web Speech voice
 │   ├── icons/                           # Handcrafted pixel-style SVG icons
 │   │   ├── chat.svg
 │   │   ├── coexistence.svg
@@ -157,7 +181,7 @@ Zenvix/
 
 ---
 
-## 7. Missing Assets and Pending Client Inputs
+## 8. Missing Assets and Pending Client Inputs
 
 The following assets must be supplied by the business owner:
 - [ ] Official ZENVIX AUTOMATION graphic logo (if a custom emblem is desired instead of the current Serif wordmark).

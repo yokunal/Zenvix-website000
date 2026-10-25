@@ -3,6 +3,8 @@
    Square corners, 2px beveled borders, flat palette, accessible layout.
    ========================================================================== */
 
+@import url("./retro-chat.css");
+
 :root {
   /* Palette */
   --bg-main: #F4F0E4;
